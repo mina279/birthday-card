@@ -91,8 +91,9 @@ body {
 
 .envelope-writing {
     position: absolute;
-    left: 25px;
-    bottom:20px;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%) rotate(-4deg); /* centering */
 
     font-family: "Dancing Script", cursive;
     font-size: 32px;
